@@ -1,0 +1,10 @@
+flask==3.0.3
+werkzeug==3.0.3
+Flask-PyMongo
+motor~=3.5.0
+dnspython
+python-dotenv~=1.0.1
+
+pydantic~=2.8.2
+pymongo~=4.8.0
+flasgger~=0.9.7.1
