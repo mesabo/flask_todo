@@ -14,6 +14,7 @@ init_db(app)
 # Register the todo blueprint with the Flask application
 app.register_blueprint(todo_bp, url_prefix='/api')
 
+
 @app.route('/')
 def home():
     return 'Welcome to the Flask Todo APP!'
@@ -25,4 +26,4 @@ def test():
 
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=True)
